@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                bat 'batFile.bat'
+                bat 'bashfile.bat'
             }
         }
     }
