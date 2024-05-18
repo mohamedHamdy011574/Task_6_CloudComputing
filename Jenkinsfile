@@ -18,7 +18,7 @@ pipeline {
                 
                 // Execute the bashfile.bat located in the second repo
                 dir('second_repo') {
-                    bat 'bashfile.bat https://github.com/mohamedHamdy011574/App_source_code_v5'
+                    bat 'bashfile.bat https://github.com/mohamedHamdy011574/Task_6_CloudComputing.git'
                 }
             }
         }
